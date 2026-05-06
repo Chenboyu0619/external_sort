@@ -1,5 +1,6 @@
 # external_sort
 Features
+
 	•	Supports files larger than RAM.
 	•	Reads the input file in chunks.
 	•	Uses external merge sort.
@@ -10,16 +11,19 @@ Features
 	•	Supports empty lines in the input file; they are ignored.
 
 Requirements
+
 	•	Python 3.9 or newer.
 	•	No additional dependencies are required.
 
 Usage
+
     python external_sort.py input.txt 1000000
     Where:
 	•	input.txt is the source file.
 	•	1000000 is the maximum number of integers that may be loaded into memory at the same time.
 	
 Example:
+
     python external_sort.py random_numbers.txt 500000
 
 Algorithm
