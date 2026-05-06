@@ -18,7 +18,6 @@ Usage
     Where:
 	•	input.txt is the source file.
 	•	1000000 is the maximum number of integers that may be loaded into memory at the same time.
- 
     Example:
     python external_sort.py random_numbers.txt 500000
 
